@@ -1,0 +1,33 @@
+{"message":"Server starting at E:\\Mithqal\\Source\\mithqal","level":"info","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:11:43.019Z"}
+{"message":"Watching for file changes at [src]","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:11:43.025Z"}
+{"message":"Server listening at editor port [5000], admin port [3000]","level":"info","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:11:43.239Z"}
+{"message":"Admin connected","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:11:43.399Z"}
+{"message":"opening editor for [https://www.wix.com/editor/08693a0e-2669-4777-9fe9-0a0a346eb982?petri_ovr=specs.ExcludeSiteFromSsr=true&corvidSessionId=f917e0f5-af62-4ee6-b5f1-b4635aac6942&localServerPort=5000&x-wix-bi-context=eyJidWlsZGVyRW52IjoibG9jYWwiLCJpc0hlYWRsZXNzIjpmYWxzZX0=]","level":"info","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:11:43.524Z"}
+{"message":"Accepted origin [https://editor.wix.com]","level":"warn","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:11:58.552Z"}
+{"message":"Editor connected","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:11:58.553Z"}
+{"message":"Site document requested","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:11:59.605Z"}
+{"message":"code files requested","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:12:05.567Z"}
+{"message":"Backing up site","level":"info","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:12:10.783Z"}
+{"message":"Updating local code files","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:12:10.797Z"}
+{"message":"Updating local code files done","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:12:10.848Z"}
+{"message":"Backing up site complete","level":"info","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:12:11.029Z"}
+{"message":"Updating local site document","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:12:11.030Z"}
+{"message":"Updating local site document done","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:12:11.198Z"}
+{"message":"Deleting backup","level":"info","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:12:11.199Z"}
+{"message":"Deleting backup complete","level":"info","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T03:12:11.233Z"}
+{"message":"Backing up site","level":"info","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:28.728Z"}
+{"message":"Updating local code files","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:28.729Z"}
+{"message":"Updating local code files done","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:28.732Z"}
+{"message":"Backing up site complete","level":"info","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:29.271Z"}
+{"message":"Updating local site document","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:29.272Z"}
+{"message":"Updating local site document done","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:29.454Z"}
+{"message":"Deleting backup","level":"info","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:29.454Z"}
+{"message":"Deleting backup complete","level":"info","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:29.478Z"}
+{"message":"Backing up site","level":"info","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:45.712Z"}
+{"message":"Updating local code files","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:45.713Z"}
+{"message":"Updating local code files done","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:45.729Z"}
+{"message":"Backing up site complete","level":"info","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:45.924Z"}
+{"message":"Updating local site document","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:45.924Z"}
+{"message":"Updating local site document done","level":"verbose","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:46.113Z"}
+{"message":"Deleting backup","level":"info","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:46.113Z"}
+{"message":"Deleting backup complete","level":"info","sessionId":"f917e0f5-af62-4ee6-b5f1-b4635aac6942","release":"corvid-cli@0.1.76","timestamp":"2019-07-08T09:42:46.137Z"}
