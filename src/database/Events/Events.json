@@ -1,0 +1,298 @@
+{
+  "displayName": "Events",
+  "permissions": "none",
+  "maxPageSize": 50,
+  "allowedOperations": [
+    "get",
+    "find",
+    "count"
+  ],
+  "id": "Events/Events",
+  "isDeleted": false,
+  "ownerAppId": "140603ad-af8d-84a5-2c80-a0f60cb47351",
+  "displayNamespace": null,
+  "fields": {
+    "scheduleStartTimeFormatted": {
+      "displayName": "Start time formatted",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 12
+    },
+    "registrationUrl": {
+      "displayName": "Registration url",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "url",
+      "index": 26
+    },
+    "scheduleTbd": {
+      "displayName": "Schedule TDB",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "boolean",
+      "index": 9
+    },
+    "googleCalendarUrl": {
+      "displayName": "Google calendar url",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "url",
+      "index": 23
+    },
+    "description": {
+      "displayName": "Description",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 3
+    },
+    "_id": {
+      "displayName": "ID",
+      "sortable": false,
+      "queryOperators": [
+        "eq",
+        "ne"
+      ],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 0
+    },
+    "scheduleStartDateFormatted": {
+      "displayName": "Start date formatted",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 11
+    },
+    "iCalendarUrl": {
+      "displayName": "iCalendar url",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "url",
+      "index": 24
+    },
+    "registrationStatus": {
+      "displayName": "Registration status",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 20
+    },
+    "slug": {
+      "displayName": "Slug",
+      "sortable": true,
+      "queryOperators": [
+        "eq",
+        "ne",
+        "contains",
+        "hasSome",
+        "urlized"
+      ],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 2
+    },
+    "modified": {
+      "displayName": "Modified",
+      "sortable": true,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "datetime",
+      "index": 17
+    },
+    "locationAddress": {
+      "displayName": "Location address",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 14
+    },
+    "timeZoneId": {
+      "displayName": "Time zone",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 8
+    },
+    "status": {
+      "displayName": "Status",
+      "sortable": false,
+      "queryOperators": [
+        "eq",
+        "ne",
+        "contains",
+        "hasSome"
+      ],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 18
+    },
+    "address": {
+      "displayName": "Location address",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": true,
+      "systemField": false,
+      "type": "object",
+      "index": 15
+    },
+    "end": {
+      "displayName": "End",
+      "sortable": true,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "datetime",
+      "index": 7
+    },
+    "userId": {
+      "displayName": "Creator id",
+      "sortable": false,
+      "queryOperators": [
+        "eq",
+        "ne"
+      ],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 27
+    },
+    "title": {
+      "displayName": "Title",
+      "sortable": true,
+      "queryOperators": [
+        "eq",
+        "ne",
+        "contains",
+        "hasSome",
+        "urlized"
+      ],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 1
+    },
+    "scheduleFormatted": {
+      "displayName": "Schedule formatted",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 10
+    },
+    "type": {
+      "displayName": "Type",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 19
+    },
+    "start": {
+      "displayName": "Start",
+      "sortable": true,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "datetime",
+      "index": 6
+    },
+    "about": {
+      "displayName": "About",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "richtext",
+      "index": 4
+    },
+    "lowestPriceFormatted": {
+      "displayName": "Lowest price formatted",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 21
+    },
+    "highestPriceFormatted": {
+      "displayName": "Highest price formatted",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 22
+    },
+    "locationName": {
+      "displayName": "Location name",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 13
+    },
+    "mainImage": {
+      "displayName": "Main image",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "image",
+      "index": 5
+    },
+    "siteEventPageUrl": {
+      "displayName": "Site event page url",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "pagelink",
+      "index": 25
+    },
+    "created": {
+      "displayName": "Created",
+      "sortable": true,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "datetime",
+      "index": 16
+    }
+  },
+  "displayField": "title",
+  "storage": "driver",
+  "defaultSort": {
+    "fieldName": "created",
+    "direction": "asc"
+  },
+  "namespace": "Events"
+}

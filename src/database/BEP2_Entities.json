@@ -1,0 +1,176 @@
+{
+  "displayName": "BEP2_Entities",
+  "allowedOperations": [
+    "count",
+    "get",
+    "find",
+    "remove",
+    "insert",
+    "update"
+  ],
+  "id": "BEP2_Entities",
+  "isDeleted": false,
+  "ownerAppId": null,
+  "displayNamespace": null,
+  "fields": {
+    "proofOfMandate": {
+      "displayName": "Proof of Mandate",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "document",
+      "index": 15
+    },
+    "_id": {
+      "displayName": "ID",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 1
+    },
+    "_owner": {
+      "displayName": "Owner",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 2
+    },
+    "_createdDate": {
+      "displayName": "Created Date",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": true,
+      "type": "datetime",
+      "index": 3
+    },
+    "registrationNumber": {
+      "displayName": "Registration Number",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 10
+    },
+    "registryOfPrincipals": {
+      "displayName": "Registry of Principals",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "document",
+      "index": 13
+    },
+    "_updatedDate": {
+      "displayName": "Updated Date",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": true,
+      "type": "datetime",
+      "index": 4
+    },
+    "registrationAddress": {
+      "displayName": "Registration Address",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 7
+    },
+    "registrationCountry": {
+      "displayName": "Registration Country",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 9
+    },
+    "formationDocument": {
+      "displayName": "Formation Document",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "document",
+      "index": 12
+    },
+    "registrationPostalCode": {
+      "displayName": "Registration Postal code",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 8
+    },
+    "entityName": {
+      "displayName": "Entity name",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 5
+    },
+    "proofOfUbOs": {
+      "displayName": "Proof of UBOs",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "document",
+      "index": 14
+    },
+    "entityType": {
+      "displayName": "Entity Type",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 6
+    },
+    "registrationCity": {
+      "displayName": "Registration City",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 17
+    },
+    "registrationState": {
+      "plugin": "dataBinding",
+      "displayName": "Registration State",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 18
+    },
+    "title": {
+      "displayName": "Title",
+      "sortable": true,
+      "isDeleted": true,
+      "systemField": false,
+      "type": "text",
+      "index": 0
+    },
+    "proofOfEntityStatus": {
+      "displayName": "Proof of Entity Status",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "document",
+      "index": 11
+    },
+    "authorizedRepresentatives": {
+      "displayName": "Authorized Representatives",
+      "sortable": true,
+      "referencedCollection": "BEP2_Verificiations",
+      "referencingDisplayName": "BEP2_Entities",
+      "isDeleted": false,
+      "systemField": false,
+      "referencingFieldKey": "BEP2_Entities",
+      "type": "multi-reference",
+      "index": 16
+    }
+  },
+  "displayField": "entityName",
+  "storage": "docstore",
+  "namespace": null
+}

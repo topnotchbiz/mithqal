@@ -1,0 +1,158 @@
+{
+    "__version": 2,
+    "wix-data": {
+        "!default": {
+            "siteOwner": {
+                "insert": true,
+                "update": true,
+                "remove": true,
+                "read": true
+            },
+            "siteMember": {
+                "insert": false,
+                "update": false,
+                "remove": false,
+                "read": false
+            },
+            "anonymous": {
+                "insert": false,
+                "update": false,
+                "remove": false,
+                "read": false
+            },
+            "dataOwner": {
+                "update": false,
+                "remove": false,
+                "read": false
+            }
+        },
+        "WhitelistDB": {
+            "anonymous": {
+                "insert": true,
+                "update": false,
+                "remove": false,
+                "read": false
+            },
+            "siteMember": {
+                "insert": true,
+                "update": false,
+                "remove": false,
+                "read": false
+            },
+            "dataOwner": {
+                "update": false,
+                "remove": false,
+                "read": false
+            },
+            "siteOwner": {
+                "insert": true,
+                "update": true,
+                "remove": true,
+                "read": true
+            }
+        },
+        "BEP2_Verificiations": {
+            "anonymous": {
+                "insert": true,
+                "update": false,
+                "remove": false,
+                "read": false
+            },
+            "siteMember": {
+                "insert": true,
+                "update": false,
+                "remove": false,
+                "read": false
+            },
+            "dataOwner": {
+                "update": false,
+                "remove": false,
+                "read": false
+            },
+            "siteOwner": {
+                "insert": true,
+                "update": true,
+                "remove": true,
+                "read": true
+            }
+        },
+        "BEP2_Entities": {
+            "anonymous": {
+                "insert": true,
+                "update": false,
+                "remove": false,
+                "read": false
+            },
+            "siteMember": {
+                "insert": true,
+                "update": false,
+                "remove": false,
+                "read": false
+            },
+            "dataOwner": {
+                "update": false,
+                "remove": false,
+                "read": false
+            },
+            "siteOwner": {
+                "insert": true,
+                "update": true,
+                "remove": true,
+                "read": true
+            }
+        },
+        "Country_List": {
+            "anonymous": {
+                "insert": false,
+                "update": false,
+                "remove": false,
+                "read": true
+            },
+            "siteMember": {
+                "insert": false,
+                "update": false,
+                "remove": false,
+                "read": true
+            },
+            "dataOwner": {
+                "update": false,
+                "remove": false,
+                "read": true
+            },
+            "siteOwner": {
+                "insert": true,
+                "update": true,
+                "remove": true,
+                "read": true
+            }
+        }
+    },
+    "web-methods": {
+        "*": {
+            "*": {
+                "siteOwner": {
+                    "invoke": true
+                },
+                "siteMember": {
+                    "invoke": true
+                },
+                "anonymous": {
+                    "invoke": true
+                }
+            }
+        },
+        "wix/data-web.jsw": {
+            "*": {
+                "siteOwner": {
+                    "invoke": true
+                },
+                "siteMember": {
+                    "invoke": true
+                },
+                "anonymous": {
+                    "invoke": true
+                }
+            }
+        }
+    }
+}
