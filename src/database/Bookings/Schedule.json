@@ -1,0 +1,73 @@
+{
+  "displayName": "Schedule",
+  "permissions": {
+    "read": "anyone"
+  },
+  "allowedOperations": [
+    "find"
+  ],
+  "id": "Bookings/Schedule",
+  "isDeleted": false,
+  "ownerAppId": "13d21c63-b5ec-5912-8397-c3a5ddb27a97",
+  "displayNamespace": null,
+  "fields": {
+    "_id": {
+      "displayName": "ID",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 0
+    },
+    "service": {
+      "displayName": "Service",
+      "sortable": false,
+      "referencedCollection": "Bookings/Services",
+      "queryOperators": [
+        "eq",
+        "lt",
+        "gt",
+        "urlized"
+      ],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "reference",
+      "index": 1
+    },
+    "serviceDurationInMinutes": {
+      "displayName": "Service Duration in Minutes",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "number",
+      "index": 3
+    },
+    "serviceSchedule": {
+      "displayName": "Service Schedule",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "object",
+      "index": 2
+    },
+    "repeatsEveryXWeeks": {
+      "displayName": "Repeats Every X Weeks",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "number",
+      "index": 4
+    }
+  },
+  "displayField": "serviceName",
+  "storage": "driver",
+  "defaultSort": {
+    "fieldName": "_id",
+    "direction": "asc"
+  },
+  "namespace": "Bookings"
+}
