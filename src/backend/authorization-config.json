@@ -56,24 +56,27 @@
                 "insert": true,
                 "update": false,
                 "remove": false,
-                "read": false
+                "read": true
             },
             "siteMember": {
                 "insert": true,
                 "update": false,
                 "remove": false,
-                "read": false
+                "read": true
             },
             "dataOwner": {
                 "update": false,
                 "remove": false,
-                "read": false
+                "read": true
             },
             "siteOwner": {
                 "insert": true,
                 "update": true,
                 "remove": true,
                 "read": true
+            },
+            "meta": {
+                "customPreset": true
             }
         },
         "BEP2_Entities": {
